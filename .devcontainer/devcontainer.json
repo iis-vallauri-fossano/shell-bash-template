@@ -1,13 +1,12 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/universal
 {
-	"name": "Default Linux Universal",
+	"name": "Default Base Debian",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+	"image": "mcr.microsoft.com/devcontainers/base:debian",
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"EditorConfig.EditorConfig",
 				"mhutchie.git-graph",
 				"vivaxy.vscode-conventional-commits",
 				"ms-vscode.makefile-tools",
